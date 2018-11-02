@@ -1,0 +1,19 @@
+Simple MIPS assembly project – exercise 1
+Write a simple MIPS assembly program running in MARS simulator environment, processing a string read 
+from console and producing desired output. The project must be completed in 2 hours during the lab session. 
+The task will be similar to the ones listed below. Input string should be read from the console using 
+read_string function.
+   • Write a program replacing all digits in a string with their complement to 9 (0→9, 1→8, 2→7 etc.)
+   • Write a program displaying the longest sequence of digits found in a string.
+   • Reverse the order of digits in a string.
+   • Scan the biggest unsigned decimal number found in a string and display its value using print_int function.
+   • Display the number of decimal numbers (sequences of decimal digits) found in a string.
+   • Remove all digits from a string, display the resulting string.
+   • Remove from a string the sequence of characters specified by positions entered as integers; handle 
+     correctly out-of-range cases and both possible orders of positions:
+	◦“abcdefgh” 2 4 or  “abcdefgh” 4 2 should produce “abfgh”
+	◦“abcdefgh” 90 100 should produce “abcdefgh”
+	◦“abcdefgh” 10 5 should produce “abcde”
+   • Remove characters preceded by digits: “abc5f67gh” → “abc56h”
+   • change every 3rd lowercase letter to uppercase: “ab1cde2f3gh4ij” → “ab1Cde2Fgh4Ij”
+   • remove all letters but the first from each sequence of uppercase letters: “ABCdefGHi” → AdefGi”
